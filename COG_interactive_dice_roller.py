@@ -9,7 +9,7 @@ class interactive_dice_roller(commands.Cog):
     
     ############DICE ROLLING########
 
-    @commands.command(aliases=["r"], help="Follows the format ADBC (Ex. 2D6+2 for two six-sided dice, with a + 2 modifier), where A is a value between 1 and 200, B is a value between 2 and 1000000, and C is a value between -500 and +500.")
+    @commands.command(aliases=["r"])
     async def roll(self, ctx):
         def check_roll_auth(m):
             return m.author == ctx.author and m.channel == ctx.channel
