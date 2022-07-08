@@ -1,5 +1,5 @@
 # Discord.py-Interactive-Dice-Roller
-An interactive dice roller COG for Discord Py Bots
+An interactive dice roller COG for Discord.py Bots
 
 **Setup**
 1. Have a Discord.py bot (Quickstart available at https://discordpy.readthedocs.io/en/stable/quickstart.html)
